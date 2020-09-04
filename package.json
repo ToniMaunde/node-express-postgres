@@ -1,0 +1,37 @@
+{
+  "name": "node-express-postgres",
+  "version": "1.0.0",
+  "description": "A frameworkish approach for building API's using NodeJS, ExpressJS and node-postgres",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "use a process manager like pm2, forever, etc."
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-express-pg"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Postgres",
+    "API"
+  ],
+  "author": "ToniMaunde",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
+}
